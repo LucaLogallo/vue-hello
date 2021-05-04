@@ -18,3 +18,11 @@
 .brown{
   color: brown;
 }
+
+.testoNascosto{
+  display: none;
+}
+
+.active{
+  display: inline-block;
+}

@@ -10,11 +10,13 @@
 </head>
 <body>
   <div id="app">
-    <h1 :class="classiH1">{{messaggioH1}}</h1>
+    <h1 :class="classiH1">{{messaggioH1}} <span :class="classeActive">{{messaggio2H1}}</span></h1>
+
+    <button @click = "attiva(' active')">attiva il secondo testo</button>
 
     <h1 :class = "miaClasse">Questo testo può cambiare colore</h1>
-    <button @click = "cambiaClasse('brown')"> colore marrone</button>
-    <button @click = "cambiaClasse('green')"> colore green</button>
+    <button @click = "cambiaClasse(' brown')"> colore marrone</button>
+    <button @click = "cambiaClasse(' green')"> colore green</button>
 
 
 
