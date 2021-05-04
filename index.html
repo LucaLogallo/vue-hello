@@ -10,21 +10,24 @@
 </head>
 <body>
   <div id="app">
-    <input type="password" v-model="messaggio2H1" placeholder="inserisci la password
+    <input style="margin: 20px;" type="password" v-model="messaggio2H1" placeholder="inserisci la password
     ">
 
     <h1 :class="classiH1">{{messaggioH1}} <span :class="classeActive">{{messaggio2H1}}</span></h1>
 
-    <button @click = "attiva(' active')">diventa un hacker</button>
+    <button style="margin: 20px;" @click = "attiva(' active')">diventa un hacker</button>
 
     <h1 :class = "miaClasse">Questo testo può cambiare colore</h1>
-    <button @click = "cambiaClasse(' brown')"> colore marrone</button>
-    <button @click = "cambiaClasse(' green')"> colore green</button>
+    <button style="margin: 20px;" @click = "cambiaClasse(' brown')"> colore marrone</button>
+    <button style="margin-left: 5px;" @click = "cambiaClasse(' green')"> colore green</button>
 
     <input style="display: block;margin: 20px;" @keyup="keyEnter" type="text" v-model="text_p" placeholder="inserisci la password
     ">
 
-    <h1>{{text}}</h1>
+    <h1 style="margin: 0 20px;">{{text}}</h1>
+
+    <img :src="img" :class="classeImg1" alt="">
+
 
   </div>
 

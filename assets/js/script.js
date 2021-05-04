@@ -11,7 +11,9 @@ const app = new Vue ({
     text_p: "",
     textU: "",
     text : "",
-    alfabeto : ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","U","V","W","X","Y","Z"]
+    alfabeto : ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","u","v","w","x","y","z","A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","U","V","W","X","Y","Z"],
+    img : "assets/img/img1.jpg",
+    classeImg1: "img1"
   },
   methods:{
     cambiaClasse(classe){

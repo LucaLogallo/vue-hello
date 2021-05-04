@@ -26,3 +26,8 @@
 .active{
   display: inline-block;
 }
+
+.img1{
+  width: 400px;
+  margin: 20px;
+}
