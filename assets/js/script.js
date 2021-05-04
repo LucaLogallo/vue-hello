@@ -1,8 +1,9 @@
 const app = new Vue ({
   el : '#app',
   data:{
+    messaggioPlaceholderHideText :"inserisci il messaggio nascosto",
     messaggioH1: "messaggio da stampare nell'h1",
-    messaggio2H1: "altro messaggio",
+    messaggio2H1: '',
     classeActive: "testoNascosto",
     classiH1:"testoH1",
     miaClasse:"testoH1",
